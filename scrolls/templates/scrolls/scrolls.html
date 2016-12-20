@@ -1,0 +1,6 @@
+{% if results }
+  {% for scroll in results %}
+    <h3>{{ scroll.title }}</h3>
+  {% endfor %}
+{% else %}
+  <p>Sorry no results for your query</p>
